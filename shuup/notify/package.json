@@ -14,7 +14,7 @@
     "autoprefixer-loader": "^2.0.0",
     "classnames": "^2.1.2",
     "css-loader": "^0.15.1",
-    "less": "^2.5.1",
+    "less": "^3.0.2",
     "less-loader": "^2.2.0",
     "node-libs-browser": "^0.5.2",
     "style-loader": "^0.12.3",
