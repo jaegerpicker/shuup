@@ -5,7 +5,9 @@
   "main": "index.js",
   "scripts": {
     "build": "npm i && gulp bower && gulp build",
-    "watch": "npm i && gulp watch"
+    "watch": "npm i && gulp watch",
+    "snyk-protect": "snyk protect",
+    "prepublish": "npm run snyk-protect"
   },
   "author": "Shuup Team <shuup@shuup.com>",
   "license": "AGPL-3.0",
@@ -45,6 +47,8 @@
     "style-loader": "^0.13.0",
     "url-loader": "^0.5.6",
     "vinyl-source-stream": "^1.1.0",
-    "webpack": "^1.12.9"
-  }
+    "webpack": "^1.12.9",
+    "snyk": "^1.316.1"
+  },
+  "snyk": true
 }
